@@ -1,0 +1,68 @@
+@media (max-width: 600px){
+    div.row{
+        display: block;
+    }
+    div.col-6{
+        padding: 20px 0;
+    }
+    #logo{
+        width: 50%;
+    }
+}
+
+.input{
+    width: 10px;
+}
+
+#c-login{
+    border: solid brown 1px;
+    align-items: center;
+    align-content: center;
+}
+#logo{
+    width: 30%;
+    margin: 10px 0;
+    background-color: blue;
+}
+.text-cat{
+    font-size:medium;
+}
+.title{
+    text-align: center;
+    padding: 20px 0;
+}
+#spray-form{
+    display: contents;
+}
+.input-spray{
+    width: 50px;
+}
+.col-2.item{
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+label{
+    text-align: center;
+}
+.row.art{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+#table-select{
+    margin: 20px 0;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+#table-select td{
+    padding: 0 5px;
+    text-align: center;
+}
+#form-search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

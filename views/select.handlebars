@@ -1,0 +1,26 @@
+
+<table id="table-select">
+    <thead>
+        <td>botões</td>
+        <td>nome</td>
+        <td>tipo</td>
+        <td>cor</td>
+        <td>und</td>
+        <td>quant</td>
+
+    </thead>
+    {{#data}}
+        <tr>
+            <td>
+                <a href="update/{{ID_mat}}">atualizar</a>
+                <a href="deletar/{{ID_mat}}" class='deletar'>deletar</a>
+            </td>
+            <td>{{ID_mat}}</td>
+            <td>{{nome}}</td>
+            <td>{{tipo}}</td>
+            <td>{{cor}}</td>
+            <td>{{und}}</td>
+            <td>{{quant}}</td>
+        </tr>
+    {{/data}}
+</table>
