@@ -16,7 +16,7 @@ class ClassCrud{
     catalogo(req,res){
         this.sql.getConnection(function(err,connection){
             connection.query(
-                "SELECT * FROM deposito WHERE quant>=5 and nome='spray' ORDER BY quant DESC;SELECT * FROM deposito WHERE quant>=5 and nome='pigmento';SELECT * FROM deposito WHERE quant>=3 and nome= 'tinta' and tipo not like 'piso%' ORDER BY quant DESC; SELECT * FROM deposito WHERE quant>=3 and nome='trincha' or nome like 'rolo%' or nome='fita crepe' or nome='extensor'",function(err,results,fields){
+                "SELECT * FROM deposito WHERE quant>=5 and nome='spray iquine' ORDER BY quant DESC;SELECT * FROM deposito WHERE quant>=5 and nome='pigmento';SELECT * FROM deposito WHERE quant>=3 and nome= 'tinta' and tipo not like 'piso%' ORDER BY quant DESC; SELECT * FROM deposito WHERE quant>=3 and nome='trincha' or nome like 'rolo%' or nome='fita crepe' or nome='extensor'",function(err,results,fields){
                 connection.release();
                 res.render('catalogo',{data1:results[0],data2:results[1],data3:results[2],data4:results[3]});
             });
@@ -62,14 +62,6 @@ class ClassCrud{
             }})
         });
     }
-    selectArt(req,res){
-        this.sql.getConnection(function(err,connection){
-            connection.query("SELECT * FROM artista", function(error, results, fields) {
-                connection.release();
-                res.render('select',{data:results})
-            });
-
-    })};
     createArt(req,res)
     {
         this.sql.getConnection(function(err,connection){

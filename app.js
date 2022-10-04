@@ -36,8 +36,6 @@ app.post("/select",urlencodeParser,function(req,res){cruds.search(req,res);})
 // //arquivo inserir
 app.get("/inserir",function(req,res){res.render('inserir');});
 app.post("/controllerFormMat",urlencodeParser,function(req,res){cruds.createMat(req,res);});
-//select artista
-app.get("/artista",function(req,res){cruds.selectArt(req,res);});
 // create new artista
 app.post("/controllerForm",urlencodeParser,function(req,res){cruds.createArt(req,res);});
 //arquivo deletar
