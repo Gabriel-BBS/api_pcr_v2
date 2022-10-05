@@ -402,49 +402,56 @@
     border-radius: 50%;
 }
 .s700{
-    background:#7d55c7;
+    background:blue;
     width: 40px;
     height: 40px;
     border: solid 1px;
     border-radius: 50%;
 }
 .s701{
-    background:#7d55c7;
+    background:rgb(120, 181, 238);
     width: 40px;
     height: 40px;
     border: solid 1px;
     border-radius: 50%;
 }
 .s702{
-    background:#7d55c7;
+    background:#CD7F32;
     width: 40px;
     height: 40px;
     border: solid 1px;
     border-radius: 50%;
 }
 .s703{
-    background:#7d55c7;
+    background:#ff7f00;
     width: 40px;
     height: 40px;
     border: solid 1px;
     border-radius: 50%;
 }
 .s704{
-    background:#7d55c7;
+    background:#6b3804;
     width: 40px;
     height: 40px;
     border: solid 1px;
     border-radius: 50%;
 }
 .s705{
-    background:#7d55c7;
+    background:#f0a5b1;
     width: 40px;
     height: 40px;
     border: solid 1px;
     border-radius: 50%;
 }
 .s706{
-    background:#7d55c7;
+    background:#6abd6a;
+    width: 40px;
+    height: 40px;
+    border: solid 1px;
+    border-radius: 50%;
+}
+.s707{
+    background:#235523;
     width: 40px;
     height: 40px;
     border: solid 1px;
