@@ -1,6 +1,8 @@
 @media (max-width: 600px){
     div.row{
-        display: block;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
     }
     div.col-6{
         padding: 20px 0;

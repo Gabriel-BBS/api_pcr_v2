@@ -229,13 +229,7 @@
     border: tolid 1px;
     border-radiut: 50%;
 }
-.avelos{
-    background: rgb(171, 192, 170);
-    width: 40px;
-    height: 40px;
-    border: tolid 1px;
-    border-radiut: 50%;
-}
+
 .t67{
     background: rgb(81, 150, 76);
     width: 40px;
@@ -257,7 +251,7 @@
     border: tolid 1px;
     border-radiut: 50%;
 }
-.caranguejo{
+.t354{
     background: rgb(220, 104, 71);
     width: 40px;
     height: 40px;
@@ -285,8 +279,15 @@
     border: tolid 1px;
     border-radiut: 50%;
 }
-.t354{
-    background: rgb(220, 104, 71);
+.t351{
+    background: rgb(162, 134, 84);
+    width: 40px;
+    height: 40px;
+    border: tolid 1px;
+    border-radiut: 50%;
+}
+.t367{
+    background: rgb(204, 208, 197);
     width: 40px;
     height: 40px;
     border: tolid 1px;
