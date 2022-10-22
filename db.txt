@@ -1,4 +1,0 @@
-user: b83967e24f0613
-password:5ed36278
-host: us-cdbr-east-06.cleardb.net
-database: heroku_edb8033e0c9551b

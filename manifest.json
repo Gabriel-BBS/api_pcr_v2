@@ -1,0 +1,16 @@
+{
+    "name": "Colorindo",
+    "short_name": "apipcr",
+    "theme_color": "#3e3dc9",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "icons":[
+        {
+            "src":"/img/72x72",
+            "sizes":"72x72",
+            "type":"image/png"
+        }
+    ]
+}
